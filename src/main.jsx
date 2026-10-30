@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import portrait from './assets/tejaswi-portrait.png';
 import './styles.css';
 
 const roles = [
@@ -31,6 +32,7 @@ function App() {
       <h1>I make complex systems<br /><em>feel dependable.</em></h1>
       <p className="intro">Senior software engineer working across enterprise data platforms, backend systems, automation, and hands-on on-chain protocol experiments.</p>
       <div className="actions"><a className="button" href="#work">Explore my work <span>↓</span></a><a className="text-link" href="https://www.linkedin.com/in/tejaswi-kharade/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      <img className="portrait" src={portrait} alt="Tejaswi Kharade" />
       <div className="orbit"><span>DATA</span><span>AUTOMATION</span><span>PROTOCOLS</span><b>TK</b></div>
     </section>
     <section className="statement"><p>“Good engineering turns ambiguity into systems people can trust.”</p><div>01 / 04</div></section>
